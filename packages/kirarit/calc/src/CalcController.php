@@ -9,11 +9,13 @@ class CalcController extends Controller
 {
     public function add($a, $b)
     {
-        return $a + $b;
+        $result = $a + $b;
+        return view('calc::index', compact('result'));
     }
 
     public function subtract($a, $b)
     {
-        return $a - $b;
+        $result = $a - $b;
+        return view('calc::index', compact('result'));
     }
 }

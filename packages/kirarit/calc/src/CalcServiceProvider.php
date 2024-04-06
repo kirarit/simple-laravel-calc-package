@@ -14,6 +14,7 @@ class CalcServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->make('Kirarit\Calc\CalcController');
+        $this->loadViewsFrom(__DIR__ . '/views', 'calc');
     }
 
     /**

@@ -1,0 +1,11 @@
+{
+    "name": "kirarit/calc",
+    "description": "This is a simple calculator package build in laravel",
+    "authors": [
+        {
+            "name": "David Kirarit",
+            "email": "davidkirarit@gmail.com"
+        }
+    ],
+    "require": {}
+}
